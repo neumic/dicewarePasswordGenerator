@@ -6,5 +6,5 @@ class DicewarePasswordGenerator:
 
       list_of_words = [roller.roll_one_word() for count in range(number_of_words)]
 
-      return "".join(list_of_words)
+      return " ".join(list_of_words)
 
